@@ -33,7 +33,7 @@ else:
         break
 
 
-## Provider-Saving Dynamic ports of remote server and Private Key
+## Provider-Saving Dynamic ports of remote server
  def provider_portsave():
    provider_portassign()
    if not os.path.exists(DIRECTORY):
